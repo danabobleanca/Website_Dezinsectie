@@ -1,0 +1,874 @@
+
+/*					INDEX				*/
+
+*{
+	margin:0px;
+	padding:0px;
+	
+}
+
+header, footer, section, nav{
+	display:block;
+}
+
+body{
+	width:100%;
+	background-color:#ededed;
+	font-family: 'Teko', sans-serif;
+
+	
+}
+
+
+.toggle{
+	width:100%;
+	padding:10px 20px;
+	background-color:#00000a;
+	opacity:1;
+	float:right;
+	text-align:right;
+	font-size:25px;
+	cursor:pointer;
+	display:none;
+	box-sizing:border-box;
+	margin-top:20px;
+}
+
+#fa_bar{
+	color:white;
+}
+
+#contact_social{
+	border-bottom:1px solid #f6f6f6;
+	padding:4px 10px;
+	box-sizing:border-box;
+	color:#ff5719;
+	width:100%;
+	text-align:right;
+}
+
+#contact_social span{
+	font-size:13px;
+}
+
+#contact_social #email{
+	margin-left:30px;
+	margin-right:30px;
+}
+
+#nav{
+	width:100%;
+	display:block;
+	overflow:hidden;
+	z-index:100;
+	padding:0px 0px;
+	width:100%;
+	box-sizing:border-box;
+	background-color:#f6f6f6;
+}
+
+#logo_bg{
+	background-image:url(../imagini/gandaci_bg.png);
+
+}
+
+#logo{
+	font-family: 'Lobster', cursive;
+	font-size:30px;
+	padding:5px 0px;
+	box-sizing:border-box;
+	color:#ff5719;
+	text-align:Center;
+	opacity:1;
+	
+}
+
+#logo img{
+    width:350px;
+}
+
+#nav ul{
+	
+	box-sizing:border-box;
+	width:100%;
+	text-align:center;
+}
+#nav ul li{
+	display:inline-block;
+	width:11.111%;
+	text-align:center;
+	list-style-type:none;
+	box-sizing:border-box;
+	padding:20px 0px;
+}
+
+	
+
+#nav ul li:hover{
+	color:white;
+	background-color:#0e192f;
+}
+
+#nav ul li:hover a{
+	color:white;
+}
+
+#nav ul li a{
+	text-decoration:none;
+	font-family: 'Teko', sans-serif;
+	font-size:24px;
+	color:#ff5719;
+	box-sizing:border-box;
+}
+
+#slide{
+	width:100%;
+	height:400px;
+	box-sizing:border-box;
+	background-image:url(../imagini/slider3.jpg);
+	background-size:auto 400px;
+	
+}
+
+#despre{
+	height:400px;
+	background-color:#ffd9cc;
+	opacity:0.8;
+	padding-top:80px;
+	box-sizing:border-box;
+	padding-left:100px;
+}
+#bioraf{
+	color:red;
+	font-size:40px;
+	font-weight:bold;
+}
+
+#despre_text p{
+	width:500px;
+	font-family: 'Teko', sans-serif;
+	font-size:30px;
+	color:black;
+	z-index:100;
+	opacity:1;
+}
+
+
+
+
+#servicii_totale{
+	display:flex;
+	box-sizing:border-box;
+	justify-content:space-between;
+	margin:0px 100px 30px 100px;
+	position:absolute;
+	top:700px;
+	
+}
+#servicii_totale>div{
+	flex-basis:32.5%;
+	box-sizing:border-box;
+	background-color:#f6f6f6;
+	padding:15px;
+	border-top:10px solid #ff5719;
+	
+}
+#servicii_totale div div{
+	text-align:right;
+	width:100%;
+	padding-top:15px;
+}
+
+#servicii_totale>div:hover{
+	border-bottom:10px solid #ff5719;
+	background-color:#f1f1f1;
+	transition:0.4s all;
+}
+
+#servicii_totale div div a{
+	text-decoration:none;
+	padding:6px 20px;
+	background-color:#ff5719;
+	color:black;
+	font-size:16px;
+	font-weight:bold;
+}
+
+#servicii_totale div h1{
+	padding-bottom:10px;
+	font-size:30px;
+	color:red;
+}
+
+#servicii_totale div p{
+	text-align:center;
+	font-size:18px;
+}
+#tarife_index{
+	position:relative;
+	top:300px;
+	width:100%;
+	text-align:center;
+	background-color:#ff8f66;
+	padding:10px;
+	box-sizing:border-box;
+	font-size:30px;
+	margin-bottom:20px;
+}
+
+#preturi_servicii{
+	display:flex;
+	flex-wrap:no-wrap;
+	position:Relative;
+	top:300px;
+	background-color:f1f1f1;
+	font-size:24px;
+	font-weight:bold;
+	color:white;
+	margin-bottom:30px;
+}
+
+#preturi_servicii>div{
+	flex:1;
+	flex-basis:50%;
+	flex-wrap:no-wrap;
+	text-align:center;
+	background-color:black;
+	color:black;
+	
+}
+#preturi_servicii div p{
+	padding:20px 0px;
+	color:white;
+}
+#persoane_fizice{
+	border-right:10px solid white;
+}
+#preturi_index{
+	text-decoration:none;
+	color:white;
+	padding:10px 0px;
+}
+#persoane_dezinsectie{
+	background-color:#fafafa;
+}
+
+#persoane_deratizare, #persoane_dezinfectie{
+	background-color:#f1f1f1;
+}
+
+.persoane{
+	display:flex;
+}
+
+.persoane div{
+	flex:1;
+	padding:30px 0px;
+	
+}
+#preturi_index:hover{
+	color:#ff8f66;
+}
+
+#galerie_index{
+	width:100%;
+	margin:30px 0px;
+	text-align:center;
+	position:relative;
+	top:300px;
+	
+}
+#imagini_galerie_index{
+	background-color:black;
+	padding:15px 0px;
+}
+#galerie_index h1{
+	width:100%;
+	text-align:center;
+	background-color:#ff8f66;
+	padding:10px;
+	box-sizing:border-box;
+	font-size:30px;
+	margin-bottom:20px;
+}
+
+#galerie_index img{
+	width:220px;
+	height:180px;
+	border:3px solid white;
+	box-shadow:3px 3px 20px grey;
+	margin-right:10px;
+	margin-left:10px;
+	opacity:0.8;
+	
+	
+}
+
+#galerie_index img:hover{
+	opacity:1;
+}
+#imagini_index{
+	background-color:black;
+	width:100%;
+	padding:15px 0px;
+}
+#imagini_index a{
+	text-decoration:none;
+	color:black;
+	font-size:24px;
+	background-color:#262626;
+	 background-image: linear-gradient(to bottom,black, white, black);
+	padding:5px 5px;
+	font-weight:bold;
+}
+#imagini_index a:hover{
+	color:#ff8f66;
+}
+
+#daunatori_index{
+	width:100%;
+	margin:30px 0px;
+	text-align:center;
+	position:relative;
+	top:300px;
+	
+}
+#imagini_daunatori_index{
+	background-color:black;
+	padding:15px 0px;
+	display:flex;
+	justify-content:space-around;
+	flex-wrap:wrap;
+}
+#daunatori_index h1{
+	width:100%;
+	text-align:center;
+	background-color:#ff8f66;
+	padding:10px;
+	box-sizing:border-box;
+	font-size:30px;
+	margin-bottom:20px;
+}
+
+/*			DESPRE NOI			*/
+
+#slide_despre{
+	width:100%;
+	height:300px;
+	box-sizing:border-box;
+	background-image:url(../imagini/slider.jpg);
+	background-size:auto 400px;
+	
+}
+
+#despre_noi{
+	height:300px;
+	background-color:#ffd9cc;
+	opacity:0.5;
+	padding-top:100px;
+	box-sizing:border-box;
+	padding-left:0px;
+	text-align:center;
+}
+
+
+#despre_noi_text p{
+	font-family: 'Teko', sans-serif;
+	font-size:55px;
+	z-index:100;
+	opacity:1;
+	font-weight:bold;
+	background-color:black;
+	color:white;
+	padding:10px 0px;
+}
+
+#pagina_despre{
+	display:flex;
+	margin:50px 100px;
+	
+	
+}
+#pagina_despre #img1, #pagina_despre #img2{
+	flex-basis:15%;
+}
+
+#pagina_despre div img{
+	width:200px;
+}
+
+#pagina_despre_text{
+	flex-basis:70%;
+	text-align:center;
+	padding:20px 100px;
+	font-size:25px;
+	font-weight:bold;
+}
+
+#pagina_despre_text2{
+	text-align:center;
+	background-color:#f6f6f6;
+	font-size:20px;
+	margin:30px 150px;
+	box-shadow:0px 0px 15px 2px black;
+	background-image:url(../imagini/contact2_bg.jpg);
+	padding:50px;
+}
+
+
+
+/*			DERATIZARE			*/
+#deratizare_pagina{
+	display:flex;
+	padding:50px 100px;
+	justify-content:space-between;
+	text-align:center;
+}
+
+#deratizare1, #deratizare3{
+	flex-basis:15%;
+	
+}
+#deratizare2{
+	flex-basis:50%;
+	
+}
+#deratizare2 h1{
+	font-size:40px;
+}
+#deratizare_pagina p{
+	font-size:18px;
+}
+#deratizare1 img, #deratizare3 img{
+	width:90px;
+	border:1px solid black;
+	border-radius:100%;
+	padding:20px;
+	background-color:#ff8f66;
+	
+}
+/*			DEZINSECTIE			*/
+#dezinsectie_pagina{
+	display:flex;
+	padding:50px 100px;
+	justify-content:space-between;
+	text-align:center;
+}
+
+#dezinsectie1, #dezinsectie3{
+	flex-basis:15%;
+	
+}
+#dezinsectie2{
+	flex-basis:50%;
+	
+}
+#dezinsectie2 h1{
+	font-size:40px;
+}
+#dezinsectie_pagina p{
+	font-size:18px;
+}
+#dezinsectie1 img, #dezinsectie3 img{
+	width:90px;
+	border:1px solid black;
+	border-radius:100%;
+	padding:20px;
+	background-color:#ff8f66;
+	
+}
+
+/*			DEZINFECTIE			*/
+
+
+#servicii_dezinfectie{
+	padding:50px 100px;
+	background-color:#f6f6f6;
+	margin-top:50px;
+	font-size:18px;
+	text-align:Center;
+	
+}
+#dezinfectie_pagina{
+	display:flex;
+	
+}
+#dezinfectie_pagina div{
+	flex:1;
+	flex-basis:50%;
+	text-align:center;
+}
+#dezinfectie_pagina div p{
+	font-size:18px;
+}
+
+#dezinfectie_pagina img{
+	width:500px;
+}
+
+#dezinfectie_pagina div h1{
+	font-size:40px;
+	padding-top:40px;
+}
+
+#dezinfectie_pagina2{
+	display:flex;
+	
+}
+
+#text_dezinfectie2{
+	flex-basis:80%;
+	text-align:center;
+}
+#imagine_dezinfectie2{
+	flex-basis:20%;
+	text-align:right;
+}
+
+#imagine_dezinfectie2 img{
+	width:100px;
+	border:1px solid black;
+	border-radius:100%;
+	padding:20px;
+	background-color:#ff8f66;
+}
+/*			DAUNATORI			*/
+#pagina_daunatori{
+	width:100%;
+
+}
+
+#tipuri_daunatori{
+	margin:0px 0px 20px 0px;
+	text-align:center;
+	font-size:36px;
+	font-weight:bold;
+	color:white;
+	background-color:black;
+	padding:20px 0px;
+}
+
+#categorii_daunatori{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-around;
+	
+}
+.daunatori{
+	width:200px;
+	border:5px solid white;
+	height:250px;
+	margin-bottom:20px;
+	position:relative;
+	box-sizing:border-box;
+}
+
+.daunatori div{
+	background-color:black;
+	text-align:Center;
+	color:white;
+	padding:10px 0px;
+	font-size:22px;
+	font-weight:bold;
+	opacity:0.7;
+	position:absolute;
+	top:78.5%;
+	width:100%;
+	
+}
+.daunatori:hover{
+	opacity:0.8;
+}
+
+#soareci{
+	background-image:url(../imagini/daunatori_soareci.jpg);
+	background-size:200px 250px;
+}
+#sobolani{
+	background-image:url(../imagini/daunatori_sobolani.jpg);
+	background-size:200px 250px;
+}
+#reptile{
+	background-image:url(../imagini/daunatori_reptile.jpg);
+	background-size:200px 250px;
+}
+#pasari{
+	background-image:url(../imagini/daunatori_pasari.jpg);
+	background-size:200px 250px;
+}
+#gandaci{
+	background-image:url(../imagini/daunatori_gandaci.jpg);
+	background-size:200px 250px;
+}
+
+#plosnite_pat{
+	background-image:url(../imagini/daunatori_plosnite_pat.jpg);
+	background-size:200px 250px;
+}
+
+#purici{
+	background-image:url(../imagini/daunatori_purici.jpg);
+	background-size:200px 250px;
+}
+#furnici{
+	background-image:url(../imagini/daunatori_furnici.jpg);
+	background-size:200px 250px;
+}
+#capuse{
+	background-image:url(../imagini/daunatori_capuse.jpg);
+	background-size:200px 250px;
+}
+#tantari{
+	background-image:url(../imagini/daunatori_tantari.jpg);
+	background-size:200px 250px;
+}
+
+#albine{
+	background-image:url(../imagini/daunatori_albina.jpg);
+	background-size:200px 250px;
+}
+
+#muste{
+	background-image:url(../imagini/daunatori_muste.jpg);
+	background-size:200px 250px;
+}
+
+#paienjeni{
+	background-image:url(../imagini/daunatori_paienjeni.jpg);
+	background-size:200px 250px;
+}
+
+#molii{
+	background-image:url(../imagini/daunatori_molii.jpg);
+	background-size:200px 250px;
+}
+#plosnite_cereale{
+	background-image:url(../imagini/daunatori_plosnite_cereale.jpg);
+	background-size:200px 250px;
+}
+#melci{
+	background-image:url(../imagini/daunatori_melci.jpg);
+	background-size:200px 250px;
+}
+
+#limacsi{
+	background-image:url(../imagini/daunatori_limacsi.jpg);
+	background-size:200px 250px;
+}
+#miriapode{
+	background-image:url(../imagini/daunatori_miriapode.jpg);
+	background-size:200px 250px;
+}
+
+
+
+/*		GALERIE	*/
+
+
+#slide_galerie{
+	width:100%;
+	padding:50px 100px;
+	text-align:center;
+	box-sizing:border-box;
+}
+
+#slide_galerie h1{
+	font-size:35px;
+	padding:20px 0px;
+}
+.galerie img{
+	width:270px;
+	height:200px;
+	border:5px solid white;
+	opacity:1;
+	}
+	
+.galerie img:hover{
+	opacity:0.7;
+}
+
+/*			PRETURI			*/
+
+#pret_juridice, #pret_fizice{
+	width:100%;
+	text-align:center;
+	margin-bottom:20px;
+	
+}
+
+#pret_juridice h1, #pret_fizice h1{
+	padding:15px;
+	font-size:30px;
+	color:#ff6a32;
+}
+table{
+	width:90%;
+	text-align:center;
+	margin:0px auto;
+	
+}
+.srv{
+	background-color:#ff8f66;
+	font-size:21px;
+	font-weight:bold;
+}
+
+table tr th{
+	font-size:25px;
+	padding:10px 5px;
+	background-color:#ff6a32;
+	box-shadow:inset 0px 0px 50px #992900;
+}
+#rowspan td{
+	background-color:#ff6a32;
+	padding:10px 0px;
+	font-weight:bold;
+	font-size:20px;
+}
+table, td{
+	border:1px solid black;
+	 border-collapse: collapse;
+}
+table th{
+	width:14.285%;
+}
+
+table, tr,  th {
+    border: 1px solid black;
+}
+
+
+table td{
+	background-color:#ffd9cc;
+	font-size:18px;
+}
+
+table  tr{
+	flex:1;
+}
+
+#text_pret{
+	width:90%;
+	margin:0px auto;
+	margin-bottom:20px;
+	background-color:#ff6a32;
+	padding:20px;
+}
+
+/*			CONTACT			*/
+#slide_contact{
+	width:100%;
+	height:400px;
+	box-sizing:border-box;
+	background-image:url(../imagini/contact_bg.jpg);
+	background-size:cover;
+	
+}
+
+#contacteaza{
+	height:400px;
+	background-color:black;
+	opacity:0.8;
+	padding-top:100px;
+	box-sizing:border-box;
+	padding-left:0px;
+	text-align:center;
+}
+
+#contact_text p{
+	font-family: 'Teko', sans-serif;
+	font-size:100px;
+	color:white;
+	z-index:100;
+	opacity:1;
+}
+
+#paragraf_contact{
+	margin:50px 200px 25px 200px;
+	text-align:center;
+	font-size:20px;
+}
+#paragraf_contact p{
+	background-color:#e0e0e0;
+	margin-top:5px;
+	padding:15px 35px;
+}
+#date_contact{
+	display:flex;
+	margin:50px 200px;
+	text-align:center;
+	justify-content:space-between;
+	background-color:#e0e0e0;
+	box-shadow:0px 0px 15px 2px black;
+	padding:30px;
+	background-image:url(../imagini/contact2_bg.jpg);
+}
+
+#date_contact div{
+	flex-basis:45%;
+	
+}
+
+#date_contact div h1{
+	margin-bottom:15px;
+	color:#ff4500;
+	font-size:35px;
+}
+#date_contact div p {
+	background-color:#ff4500;
+	margin:10px 0px;
+	padding:5px 0px;
+	font-size:20px;
+	box-shadow: inset 2px 2px 35px black;
+}
+#date_contact2 div img{
+	width:40px;
+	padding:0px;
+	
+}
+
+#date_contact2 div p a{
+	text-decoration:none;
+	color:#190600;
+	font-weight:bold;
+}
+
+#date_contact2 div{
+
+}
+
+#date_contact2 div{
+	background-color:#ff4500;
+	padding:10px 0px;
+	margin-bottom:10px;
+}
+
+#paragraf_contact  #pret{
+	background-color:#ff4500;
+}
+#footer_index{
+	text-align:center;
+	padding:25px 0px;
+	position:relative;
+	top:300px;
+	background-color:black;
+	color:white;
+	
+}
+#footer_index a{
+	text-decoration:none;
+	color:white;
+	font-weight:bold;
+}
+
+#footer{
+	text-align:center;
+	padding:15px 0px;
+	background-color:black;
+	color:white;
+}
+#footer a{
+	text-decoration:none;
+	color:white;
+	font-weight:bold;
+}

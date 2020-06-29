@@ -1,0 +1,1999 @@
+@media screen  and (max-width: 375px) {
+	
+
+#contact_social{
+	width:100%;
+}
+
+#contact_social span{
+	
+}
+#nav{
+	width:100%;
+}
+
+#nav ul{
+	clear:both;
+	box-sizing:border-box;
+	flex-basis:100%;
+	display:flex;
+	flex-wrap:wrap;
+	flex:1;
+	margin-bottom:3px;
+	
+	
+}
+
+.toggle{
+	display:block;
+}
+
+
+
+#nav ul li{
+	width:100%;
+	display:block;
+	text-align:center;
+	float:left;
+	margin-bottom:0px;
+	margin-top:0px;
+	height:0px;
+	overflow:hidden;
+	padding:0px;
+}
+
+#header nav ul li.open{
+	height:auto;
+}
+
+#nav ul li a{
+	width:100%;
+	display:block;
+	float:left;
+	margin-bottom:0px;
+	margin-top:0px;
+	border-top:3px solid black;
+	box-sizing:border-box;
+	font-size:22px;
+	padding:15px 0px;
+}
+
+header{
+	width:100%;
+	height:auto;
+}
+
+
+#slide{
+	width:100%;
+	height:200px;
+	box-sizing:border-box;
+	background-size:cover
+	
+}
+
+#despre{
+	height:200px;
+	padding-top:50px;
+	box-sizing:border-box;
+	padding-left:20px;
+}
+#bioraf{
+	font-size:20px;
+}
+
+#despre_text p{
+	width:250px;
+	font-size:16px;
+}
+
+
+#servicii_totale{
+	display:flex;
+	margin:30px 20px 30px 20px;
+	position:relative;
+	top:0px;
+	flex-wrap:wrap;
+	
+}
+#servicii_totale>div{
+	flex-basis:100%;
+	flex-wrap:wrap;
+	margin-bottom:20px;
+	
+}
+#servicii_totale div div{
+	width:100%;
+	padding-top:15px;
+}
+
+
+#servicii_totale div div a{
+	padding:6px 20px;
+	font-size:15px;
+}
+
+#servicii_totale div h1{
+	padding-bottom:10px;
+	font-size:26px;
+}
+
+#servicii_totale div p{
+	text-align:center;
+	font-size:18px;
+}
+
+#tarife_index{
+	position:relative;
+	top:0px;
+	width:100%;
+	font-size:26px;
+}
+
+#preturi_servicii{
+	display:flex;
+	flex-wrap:wrap;
+	position:Relative;
+	top:0px;
+	font-size:24px;
+}
+
+#preturi_servicii>div{
+	flex:1;
+	flex-basis:50%;
+	flex-wrap:no-wrap;
+	margin-bottom:30px;
+	
+}
+#persoane_fizice{
+	border-right:0px solid white;
+}
+
+#galerie_index{
+	position:relative;
+	top:0px;
+}
+
+#daunatori_index{
+	position:relative;
+	top:0px;
+}
+
+
+
+#footer_index{
+	position:relative;
+	top:0px;
+	
+}
+
+
+/*			DESPRE			*/
+
+#slide_despre{
+	width:100%;
+	height:200px;
+	background-size:cover;
+	
+}
+
+#despre_noi{
+	height:200px;
+	padding-top:60px;
+}
+
+
+#despre_noi_text p{
+	font-size:35px;
+}
+
+#pagina_despre{
+	display:flex;
+	margin:50px 0px;
+	flex-wrap:wrap;
+	text-align:center;
+	
+	
+}
+#pagina_despre #img1, #pagina_despre #img2{
+	flex-basis:100%;
+}
+
+#pagina_despre div img{
+	width:170px;
+}
+
+#pagina_despre_text{
+	flex-basis:100%;
+	text-align:center;
+	padding:20px 20px;
+	font-size:19px;
+}
+#pagina_despre_text2{
+	font-size:18px;
+	margin:30px 20px;
+	padding:15px;
+}
+/*			DERATIZARE			*/
+
+#deratizare_pagina{
+	display:flex;
+	padding:50px 20px;
+	flex-wrap:wrap;
+}
+
+#deratizare1, #deratizare3{
+	flex-basis:100%;
+	
+}
+#deratizare2{
+	flex-basis:100%;
+	
+}
+#deratizare2 h1{
+	font-size:30px;
+}
+#deratizare_pagina p{
+	font-size:17px;
+}
+#deratizare1 img, #deratizare3 img{
+	width:50px;
+	height:60px;
+	
+}
+
+/*			DEZINSECTIE			*/
+#dezinsectie_pagina{
+	display:flex;
+	padding:50px 20px;
+	flex-wrap:wrap;
+}
+
+#dezinsectie1, #dezinsectie3{
+	flex-basis:100%;
+	
+}
+#dezinsectie2{
+	flex-basis:100%;
+	
+}
+#dezinsectie2 h1{
+	font-size:30px;
+}
+#dezinsectie_pagina p{
+	font-size:17px;
+}
+#dezinsectie1 img, #dezinsectie3 img{
+	width:50px;
+	height:60px;
+
+	
+}
+
+/*			DEZINFECTIE			*/
+
+
+#servicii_dezinfectie{
+	padding:50px 20px;
+	font-size:17px;
+	
+}
+#dezinfectie_pagina{
+	display:flex;
+	flex-wrap:wrap;
+	
+}
+#dezinfectie_pagina div{
+	flex:1;
+	flex-basis:100%;
+	text-align:center;
+}
+#dezinfectie_pagina div p{
+	font-size:17px;
+}
+
+#dezinfectie_pagina img{
+	width:250px;
+}
+
+#dezinfectie_pagina div h1{
+	font-size:30px;
+	padding-top:40px;
+}
+
+#dezinfectie_pagina2{
+	display:flex;
+	flex-wrap:wrap;
+}
+
+#text_dezinfectie2{
+	flex-basis:100%;
+	text-align:center;
+}
+#imagine_dezinfectie2{
+	flex-basis:100%;
+	text-align:center;
+}
+
+#imagine_dezinfectie2 img{
+	width:60px;
+
+}
+
+/*		GALERIE	*/
+
+
+#slide_galerie{
+	padding:50px 20px;
+
+}
+
+.galerie img{
+	width:230px;
+	height:190px;
+	}
+	
+/*			PRETURI			*/
+
+
+#pret_juridice h1, #pret_fizice h1{
+	padding:10px;
+	font-size:24px;
+}
+table{
+	width:95%;
+	
+}
+.srv{
+	font-size:15px;
+}
+
+table tr th{
+	font-size:13px;
+	padding:6px 3px;
+}
+#rowspan td{
+	padding:2px 0px;
+	font-size:16px;
+}
+
+table td{
+	font-size:16px;
+}
+
+
+#text_pret{
+	width:95%;
+}
+	
+
+/*			CONTACT			*/
+#slide_contact{
+	width:100%;
+	height:200px;
+	background-size:cover;
+}
+
+#contacteaza{
+	height:200px;
+	padding-top:70px;
+}
+
+#contact_text p{
+	font-size:50px;
+}
+
+#paragraf_contact{
+	margin:50px 20px 25px 20px;
+	font-size:20px;
+}
+#paragraf_contact p{
+	background-color:#e0e0e0;
+	margin-top:5px;
+	padding:15px 20px;
+}
+#date_contact{
+	display:flex;
+	flex-wrap:wrap;
+	margin:50px 20px;
+	padding:30px;
+}
+
+#date_contact div{
+	flex-basis:100%;
+	
+}
+
+#date_contact div h1{
+	margin-bottom:15px;
+	font-size:35px;
+}
+#date_contact div p {
+	font-size:18px;
+}
+}
+
+@media screen  and (min-width: 375px) and (max-width: 467px){
+	
+	#contact_social{
+	width:100%;
+	text-align:center;
+}
+
+#contact_social span{
+	
+}
+#nav{
+	width:100%;
+}
+
+#nav ul{
+	clear:both;
+	box-sizing:border-box;
+	flex-basis:100%;
+	display:flex;
+	flex-wrap:wrap;
+	flex:1;
+	margin-bottom:3px;
+	
+	
+}
+
+.toggle{
+	display:block;
+}
+
+
+
+#nav ul li{
+	width:100%;
+	display:block;
+	text-align:center;
+	float:left;
+	margin-bottom:0px;
+	margin-top:0px;
+	height:0px;
+	overflow:hidden;
+	padding:0px;
+}
+
+#header nav ul li.open{
+	height:auto;
+}
+
+#nav ul li a{
+	width:100%;
+	display:block;
+	float:left;
+	margin-bottom:0px;
+	margin-top:0px;
+	border-top:3px solid black;
+	box-sizing:border-box;
+	font-size:22px;
+	padding:10px 0px;
+}
+
+header{
+	width:100%;
+	height:auto;
+}
+
+
+#slide{
+	width:100%;
+	height:200px;
+	box-sizing:border-box;
+	background-size:cover
+	
+}
+
+#despre{
+	height:200px;
+	padding-top:50px;
+	box-sizing:border-box;
+	padding-left:20px;
+}
+#bioraf{
+	font-size:20px;
+}
+
+#despre_text p{
+	width:250px;
+	font-size:16px;
+}
+
+
+#servicii_totale{
+	display:flex;
+	margin:30px 20px 30px 20px;
+	position:relative;
+	top:0px;
+	flex-wrap:wrap;
+	
+}
+#servicii_totale>div{
+	flex-basis:100%;
+	flex-wrap:wrap;
+	margin-bottom:20px;
+	
+}
+#servicii_totale div div{
+	width:100%;
+	padding-top:15px;
+}
+
+
+#servicii_totale div div a{
+	padding:6px 20px;
+	font-size:15px;
+}
+
+#servicii_totale div h1{
+	padding-bottom:10px;
+	font-size:26px;
+}
+
+#servicii_totale div p{
+	text-align:center;
+	font-size:18px;
+}
+
+#tarife_index{
+	position:relative;
+	top:0px;
+	width:100%;
+	font-size:26px;
+}
+
+#preturi_servicii{
+	display:flex;
+	flex-wrap:wrap;
+	position:Relative;
+	top:0px;
+	font-size:24px;
+}
+
+#preturi_servicii>div{
+	flex:1;
+	flex-basis:50%;
+	flex-wrap:no-wrap;
+	margin-bottom:30px;
+	
+}
+
+#persoane_fizice{
+	border-right:0px solid white;
+}
+#galerie_index{
+	position:relative;
+	top:0px;
+}
+
+#daunatori_index{
+	position:relative;
+	top:0px;
+}
+
+#footer_index{
+	position:relative;
+	top:0px;
+	
+}
+
+/*			DESPRE			*/
+
+#slide_despre{
+	width:100%;
+	height:200px;
+	background-size:cover;
+	
+}
+
+#despre_noi{
+	height:200px;
+	padding-top:60px;
+}
+
+
+#despre_noi_text p{
+	font-size:35px;
+}
+
+#pagina_despre{
+	display:flex;
+	margin:50px 0px;
+	flex-wrap:wrap;
+	text-align:center;
+	
+	
+}
+#pagina_despre #img1, #pagina_despre #img2{
+	flex-basis:100%;
+}
+
+#pagina_despre div img{
+	width:170px;
+}
+
+#pagina_despre_text{
+	flex-basis:100%;
+	text-align:center;
+	padding:20px 20px;
+	font-size:19px;
+}
+#pagina_despre_text2{
+	font-size:18px;
+	margin:30px 20px;
+	padding:15px;
+}
+/*			DERATIZARE			*/
+
+#deratizare_pagina{
+	display:flex;
+	padding:50px 20px;
+	flex-wrap:wrap;
+}
+
+#deratizare1, #deratizare3{
+	flex-basis:100%;
+	
+}
+#deratizare2{
+	flex-basis:100%;
+	
+}
+#deratizare2 h1{
+	font-size:30px;
+}
+#deratizare_pagina p{
+	font-size:17px;
+}
+#deratizare1 img, #deratizare3 img{
+	width:50px;
+	height:60px;
+	
+}
+
+/*			DEZINSECTIE			*/
+#dezinsectie_pagina{
+	display:flex;
+	padding:50px 20px;
+	flex-wrap:wrap;
+}
+
+#dezinsectie1, #dezinsectie3{
+	flex-basis:100%;
+	
+}
+#dezinsectie2{
+	flex-basis:100%;
+	
+}
+#dezinsectie2 h1{
+	font-size:30px;
+}
+#dezinsectie_pagina p{
+	font-size:17px;
+}
+#dezinsectie1 img, #dezinsectie3 img{
+	width:50px;
+	height:60px;
+
+	
+}
+
+/*			DEZINFECTIE			*/
+
+
+#servicii_dezinfectie{
+	padding:50px 20px;
+	font-size:17px;
+	
+}
+#dezinfectie_pagina{
+	display:flex;
+	flex-wrap:wrap;
+	
+}
+#dezinfectie_pagina div{
+	flex:1;
+	flex-basis:100%;
+	text-align:center;
+}
+#dezinfectie_pagina div p{
+	font-size:17px;
+}
+
+#dezinfectie_pagina img{
+	width:300px;
+}
+
+#dezinfectie_pagina div h1{
+	font-size:30px;
+	padding-top:40px;
+}
+
+#dezinfectie_pagina2{
+	display:flex;
+	flex-wrap:wrap;
+}
+
+#text_dezinfectie2{
+	flex-basis:100%;
+	text-align:center;
+}
+#imagine_dezinfectie2{
+	flex-basis:100%;
+	text-align:center;
+}
+
+#imagine_dezinfectie2 img{
+	width:60px;
+
+}
+
+/*		GALERIE	*/
+
+
+#slide_galerie{
+	padding:50px 20px;
+
+}
+
+.galerie img{
+	width:230px;
+	height:190px;
+	}
+	
+/*			PRETURI			*/
+
+
+#pret_juridice h1, #pret_fizice h1{
+	padding:10px;
+	font-size:24px;
+}
+table{
+	width:95%;
+	
+}
+.srv{
+	font-size:17px;
+}
+
+table tr th{
+	font-size:17px;
+	padding:6px 3px;
+}
+#rowspan td{
+	padding:2px 0px;
+	font-size:16px;
+}
+
+table td{
+	font-size:16px;
+}
+
+
+#text_pret{
+	width:95%;
+}
+
+/*			CONTACT			*/
+#slide_contact{
+	width:100%;
+	height:200px;
+	background-size:cover;
+}
+
+#contacteaza{
+	height:200px;
+	padding-top:70px;
+}
+
+#contact_text p{
+	font-size:50px;
+}
+
+#paragraf_contact{
+	margin:50px 20px 25px 20px;
+	font-size:20px;
+}
+#paragraf_contact p{
+	background-color:#e0e0e0;
+	margin-top:5px;
+	padding:15px 20px;
+}
+#date_contact{
+	display:flex;
+	flex-wrap:wrap;
+	margin:50px 20px;
+	padding:30px;
+}
+
+#date_contact div{
+	flex-basis:100%;
+	
+}
+
+#date_contact div h1{
+	margin-bottom:15px;
+	font-size:35px;
+}
+#date_contact div p {
+	font-size:18px;
+}
+}
+
+@media screen  and (min-width: 467px) and (max-width: 667px){
+		
+#contact_social{
+	width:100%;
+	text-align:center;
+}
+
+#nav{
+	width:100%;
+}
+
+#nav ul{
+	clear:both;
+	box-sizing:border-box;
+	flex-basis:100%;
+	display:flex;
+	flex-wrap:wrap;
+	flex:1;
+	margin-bottom:3px;
+	
+	
+}
+
+.toggle{
+	display:block;
+}
+
+
+
+#nav ul li{
+	width:100%;
+	display:block;
+	text-align:center;
+	float:left;
+	margin-bottom:0px;
+	margin-top:0px;
+	height:0px;
+	overflow:hidden;
+	padding:0px;
+}
+
+#header nav ul li.open{
+	height:auto;
+}
+
+#nav ul li a{
+	width:100%;
+	display:block;
+	float:left;
+	margin-bottom:0px;
+	margin-top:0px;
+	border-top:3px solid black;
+	box-sizing:border-box;
+	font-size:22px;
+	padding:10px 0px;
+}
+
+header{
+	width:100%;
+	height:auto;
+}
+
+
+#slide{
+	width:100%;
+	height:230px;
+	box-sizing:border-box;
+	background-size:cover
+	
+}
+
+#despre{
+	height:230px;
+	padding-top:50px;
+	box-sizing:border-box;
+	padding-left:20px;
+}
+#bioraf{
+	font-size:25px;
+}
+
+#despre_text p{
+	width:320px;
+	font-size:20px;
+}
+
+
+#servicii_totale{
+	display:flex;
+	margin:30px 20px 30px 20px;
+	position:relative;
+	top:0px;
+	flex-wrap:wrap;
+	
+}
+#servicii_totale>div{
+	flex-basis:100%;
+	flex-wrap:wrap;
+	margin-bottom:20px;
+	
+}
+#servicii_totale div div{
+	width:100%;
+	padding-top:15px;
+}
+
+
+#servicii_totale div div a{
+	padding:6px 20px;
+	font-size:15px;
+}
+
+#servicii_totale div h1{
+	padding-bottom:10px;
+	font-size:26px;
+}
+
+#servicii_totale div p{
+	text-align:center;
+	font-size:18px;
+}
+
+#tarife_index{
+	position:relative;
+	top:0px;
+	width:100%;
+	font-size:26px;
+}
+
+#preturi_servicii{
+	display:flex;
+	flex-wrap:wrap;
+	position:Relative;
+	top:0px;
+	font-size:24px;
+}
+
+#preturi_servicii>div{
+	flex:1;
+	flex-basis:100%;
+	flex-wrap:no-wrap;
+	margin-bottom:30px;
+	
+}
+
+#persoane_fizice{
+	border-right:0px solid white;
+}
+#galerie_index{
+	position:relative;
+	top:0px;
+}
+#daunatori_index{
+	position:relative;
+	top:0px;
+}
+
+
+#footer_index{
+	position:relative;
+	top:0px;
+	
+}
+
+/*			DESPRE			*/
+
+#slide_despre{
+	width:100%;
+	height:230px;
+	background-size:cover;
+	
+}
+
+#despre_noi{
+	height:230px;
+	padding-top:70px;
+}
+
+
+#despre_noi_text p{
+	font-size:35px;
+}
+
+#pagina_despre{
+	display:flex;
+	margin:50px 0px;
+	flex-wrap:wrap;
+	text-align:center;
+	
+	
+}
+#pagina_despre #img1, #pagina_despre #img2{
+	flex-basis:100%;
+}
+
+#pagina_despre div img{
+	width:170px;
+}
+
+#pagina_despre_text{
+	flex-basis:100%;
+	text-align:center;
+	padding:20px 20px;
+	font-size:19px;
+}
+#pagina_despre_text2{
+	font-size:18px;
+	margin:30px 20px;
+	padding:15px;
+}
+/*			DERATIZARE			*/
+
+#deratizare_pagina{
+	display:flex;
+	padding:50px 20px;
+	flex-wrap:wrap;
+}
+
+#deratizare1, #deratizare3{
+	flex-basis:100%;
+	
+}
+#deratizare2{
+	flex-basis:100%;
+	
+}
+#deratizare2 h1{
+	font-size:30px;
+}
+#deratizare_pagina p{
+	font-size:17px;
+}
+#deratizare1 img, #deratizare3 img{
+	width:50px;
+	height:60px;
+	
+}
+
+/*			DEZINSECTIE			*/
+#dezinsectie_pagina{
+	display:flex;
+	padding:50px 20px;
+	flex-wrap:wrap;
+}
+
+#dezinsectie1, #dezinsectie3{
+	flex-basis:100%;
+	
+}
+#dezinsectie2{
+	flex-basis:100%;
+	
+}
+#dezinsectie2 h1{
+	font-size:30px;
+}
+#dezinsectie_pagina p{
+	font-size:17px;
+}
+#dezinsectie1 img, #dezinsectie3 img{
+	width:50px;
+	height:60px;
+
+	
+}
+
+/*			DEZINFECTIE			*/
+
+
+#servicii_dezinfectie{
+	padding:50px 20px;
+	font-size:17px;
+	
+}
+#dezinfectie_pagina{
+	display:flex;
+	flex-wrap:wrap;
+	
+}
+#dezinfectie_pagina div{
+	flex:1;
+	flex-basis:100%;
+	text-align:center;
+}
+#dezinfectie_pagina div p{
+	font-size:17px;
+}
+
+#dezinfectie_pagina img{
+	width:400px;
+}
+
+#dezinfectie_pagina div h1{
+	font-size:30px;
+	padding-top:40px;
+}
+
+#dezinfectie_pagina2{
+	display:flex;
+	flex-wrap:wrap;
+}
+
+#text_dezinfectie2{
+	flex-basis:100%;
+	text-align:center;
+}
+#imagine_dezinfectie2{
+	flex-basis:100%;
+	text-align:center;
+}
+
+#imagine_dezinfectie2 img{
+	width:80px;
+
+}
+
+/*			PRETURI			*/
+
+
+#pret_juridice h1, #pret_fizice h1{
+	padding:10px;
+	font-size:26px;
+}
+table{
+	width:95%;
+	
+}
+.srv{
+	font-size:17px;
+}
+
+table tr th{
+	font-size:18px;
+	padding:6px 3px;
+}
+#rowspan td{
+	padding:2px 0px;
+	font-size:17px;
+}
+
+table td{
+	font-size:17px;
+}
+
+
+#text_pret{
+	width:95%;
+}
+
+/*			CONTACT			*/
+#slide_contact{
+	width:100%;
+	height:230px;
+	background-size:cover;
+}
+
+#contacteaza{
+	height:230px;
+	padding-top:80px;
+}
+
+#contact_text p{
+	font-size:60px;
+}
+
+#paragraf_contact{
+	margin:50px 20px 25px 20px;
+	font-size:20px;
+}
+#paragraf_contact p{
+	background-color:#e0e0e0;
+	margin-top:5px;
+	padding:15px 20px;
+}
+#date_contact{
+	display:flex;
+	flex-wrap:wrap;
+	margin:50px 20px;
+	padding:30px;
+}
+
+#date_contact div{
+	flex-basis:100%;
+	
+}
+
+#date_contact div h1{
+	margin-bottom:15px;
+	font-size:35px;
+}
+#date_contact div p {
+	font-size:18px;
+}
+	
+}
+
+@media screen  and (min-width: 667px) and (max-width: 768px){
+#contact_social{
+	width:100%;
+	text-align:center;
+}
+
+#nav{
+	width:100%;
+}
+
+#nav ul{
+	clear:both;
+	box-sizing:border-box;
+	flex-basis:100%;
+	display:flex;
+	flex-wrap:wrap;
+	flex:1;
+	margin-bottom:3px;
+	
+	
+}
+
+.toggle{
+	display:block;
+}
+
+
+
+#nav ul li{
+	width:100%;
+	display:block;
+	text-align:center;
+	float:left;
+	margin-bottom:0px;
+	margin-top:0px;
+	height:0px;
+	overflow:hidden;
+	padding:0px;
+}
+
+#header nav ul li.open{
+	height:auto;
+}
+
+#nav ul li a{
+	width:100%;
+	display:block;
+	float:left;
+	margin-bottom:0px;
+	margin-top:0px;
+	border-top:3px solid black;
+	box-sizing:border-box;
+	font-size:22px;
+	padding:10px 0px;
+}
+
+header{
+	width:100%;
+	height:auto;
+}
+
+
+#slide{
+	width:100%;
+	height:230px;
+	box-sizing:border-box;
+	background-size:cover
+	
+}
+
+#despre{
+	height:230px;
+	padding-top:50px;
+	box-sizing:border-box;
+	padding-left:20px;
+}
+#bioraf{
+	font-size:25px;
+}
+
+#despre_text p{
+	width:320px;
+	font-size:20px;
+}
+
+
+#servicii_totale{
+	display:flex;
+	margin:30px 20px 30px 20px;
+	position:relative;
+	top:0px;
+	flex-wrap:wrap;
+	
+}
+#servicii_totale>div{
+	flex-basis:100%;
+	flex-wrap:wrap;
+	margin-bottom:20px;
+	
+}
+#servicii_totale div div{
+	width:100%;
+	padding-top:15px;
+}
+
+
+#servicii_totale div div a{
+	padding:6px 20px;
+	font-size:15px;
+}
+
+#servicii_totale div h1{
+	padding-bottom:10px;
+	font-size:26px;
+}
+
+#servicii_totale div p{
+	text-align:center;
+	font-size:18px;
+}
+
+#tarife_index{
+	position:relative;
+	top:0px;
+	width:100%;
+	font-size:26px;
+}
+
+#preturi_servicii{
+	display:flex;
+	flex-wrap:wrap;
+	position:Relative;
+	top:0px;
+	font-size:24px;
+}
+
+#preturi_servicii>div{
+	flex:1;
+	flex-basis:100%;
+	flex-wrap:no-wrap;
+	margin-bottom:30px;
+	
+}
+
+#persoane_fizice{
+	border-right:0px solid white;
+}
+#galerie_index{
+	position:relative;
+	top:0px;
+}
+#daunatori_index{
+	position:relative;
+	top:0px;
+}
+
+
+#footer_index{
+	position:relative;
+	top:0px;
+	
+}
+
+/*			DESPRE			*/
+
+#slide_despre{
+	width:100%;
+	height:230px;
+	background-size:cover;
+	
+}
+
+#despre_noi{
+	height:230px;
+	padding-top:70px;
+}
+
+
+#despre_noi_text p{
+	font-size:35px;
+}
+
+#pagina_despre{
+	display:flex;
+	margin:50px 0px;
+	flex-wrap:wrap;
+	text-align:center;
+	
+	
+}
+#pagina_despre #img1, #pagina_despre #img2{
+	flex-basis:100%;
+}
+
+#pagina_despre div img{
+	width:170px;
+}
+
+#pagina_despre_text{
+	flex-basis:100%;
+	text-align:center;
+	padding:20px 20px;
+	font-size:19px;
+}
+#pagina_despre_text2{
+	font-size:18px;
+	margin:30px 20px;
+	padding:15px;
+}
+/*			DERATIZARE			*/
+
+#deratizare_pagina{
+	display:flex;
+	padding:50px 20px;
+	flex-wrap:wrap;
+}
+
+#deratizare1, #deratizare3{
+	flex-basis:100%;
+	
+}
+#deratizare2{
+	flex-basis:100%;
+	
+}
+#deratizare2 h1{
+	font-size:30px;
+}
+#deratizare_pagina p{
+	font-size:17px;
+}
+#deratizare1 img, #deratizare3 img{
+	width:50px;
+	height:60px;
+	
+}
+
+/*			DEZINSECTIE			*/
+#dezinsectie_pagina{
+	display:flex;
+	padding:50px 20px;
+	flex-wrap:wrap;
+}
+
+#dezinsectie1, #dezinsectie3{
+	flex-basis:100%;
+	
+}
+#dezinsectie2{
+	flex-basis:100%;
+	
+}
+#dezinsectie2 h1{
+	font-size:30px;
+}
+#dezinsectie_pagina p{
+	font-size:17px;
+}
+#dezinsectie1 img, #dezinsectie3 img{
+	width:50px;
+	height:60px;
+
+	
+}
+
+/*			DEZINFECTIE			*/
+
+
+#servicii_dezinfectie{
+	padding:50px 20px;
+	font-size:17px;
+	
+}
+#dezinfectie_pagina{
+	display:flex;
+	flex-wrap:wrap;
+	
+}
+#dezinfectie_pagina div{
+	flex:1;
+	flex-basis:100%;
+	text-align:center;
+}
+#dezinfectie_pagina div p{
+	font-size:17px;
+}
+
+#dezinfectie_pagina img{
+	width:500px;
+}
+
+#dezinfectie_pagina div h1{
+	font-size:30px;
+	padding-top:40px;
+}
+
+#dezinfectie_pagina2{
+	display:flex;
+	flex-wrap:wrap;
+}
+
+#text_dezinfectie2{
+	flex-basis:100%;
+	text-align:center;
+}
+#imagine_dezinfectie2{
+	flex-basis:100%;
+	text-align:center;
+}
+
+#imagine_dezinfectie2 img{
+	width:80px;
+
+}
+
+/*			PRETURI			*/
+
+
+#pret_juridice h1, #pret_fizice h1{
+	padding:10px;
+	font-size:26px;
+}
+table{
+	width:95%;
+	
+}
+.srv{
+	font-size:19px;
+}
+
+table tr th{
+	font-size:19px;
+	padding:6px 3px;
+}
+#rowspan td{
+	padding:2px 0px;
+	font-size:18px;
+}
+
+table td{
+	font-size:18px;
+}
+
+
+#text_pret{
+	width:95%;
+}
+
+
+/*			CONTACT			*/
+#slide_contact{
+	width:100%;
+	height:230px;
+	background-size:cover;
+}
+
+#contacteaza{
+	height:230px;
+	padding-top:80px;
+}
+
+#contact_text p{
+	font-size:60px;
+}
+
+#paragraf_contact{
+	margin:50px 20px 25px 20px;
+	font-size:20px;
+}
+#paragraf_contact p{
+	background-color:#e0e0e0;
+	margin-top:5px;
+	padding:15px 20px;
+}
+#date_contact{
+	display:flex;
+	flex-wrap:wrap;
+	margin:50px 20px;
+	padding:30px;
+}
+
+#date_contact div{
+	flex-basis:100%;
+	
+}
+
+#date_contact div h1{
+	margin-bottom:15px;
+	font-size:35px;
+}
+#date_contact div p {
+	font-size:18px;
+}
+	
+}
+
+@media screen  and (min-width: 768px) and (max-width: 1024px){
+	
+#contact_social{
+	width:100%;
+	text-align:right;
+}
+
+#nav{
+	width:100%;
+}
+
+#nav ul{
+	clear:both;
+	box-sizing:border-box;
+	flex-basis:100%;
+	display:flex;
+	flex-wrap:wrap;
+	flex:1;
+	margin-bottom:3px;
+	
+	
+}
+
+.toggle{
+	display:block;
+}
+
+
+
+#nav ul li{
+	width:100%;
+	display:block;
+	text-align:center;
+	float:left;
+	margin-bottom:0px;
+	margin-top:0px;
+	height:0px;
+	overflow:hidden;
+	padding:0px;
+}
+
+#header nav ul li.open{
+	height:auto;
+}
+
+#nav ul li a{
+	width:100%;
+	display:block;
+	float:left;
+	margin-bottom:0px;
+	margin-top:0px;
+	border-top:3px solid black;
+	box-sizing:border-box;
+	font-size:24px;
+	padding:10px 0px;
+}
+
+header{
+	width:100%;
+	height:auto;
+}
+
+
+#slide{
+	width:100%;
+	height:300px;
+	box-sizing:border-box;
+	background-size:cover
+	
+}
+
+#despre{
+	height:300px;
+	padding-top:50px;
+	box-sizing:border-box;
+	padding-left:20px;
+}
+#bioraf{
+	font-size:30px;
+}
+
+#despre_text p{
+	width:450px;
+	font-size:26px;
+}
+
+#servicii_totale{
+	display:flex;
+	margin:30px 20px 30px 20px;
+	position:relative;
+	top:0px;
+	flex-wrap:no-wrap;
+	
+}
+#servicii_totale>div{
+	flex-wrap:no-wrap;
+	margin-bottom:20px;
+	
+}
+#servicii_totale div div{
+	width:100%;
+	padding-top:15px;
+}
+
+
+#servicii_totale div div a{
+	padding:6px 20px;
+	font-size:15px;
+}
+
+#servicii_totale div h1{
+	padding-bottom:10px;
+	font-size:26px;
+}
+
+#servicii_totale div p{
+	text-align:center;
+	font-size:18px;
+}
+
+#tarife_index{
+	position:relative;
+	top:0px;
+
+}
+
+#preturi_servicii{
+	position:Relative;
+	top:0px;
+}
+
+#galerie_index{
+	position:relative;
+	top:0px;
+}
+#daunatori_index{
+	position:relative;
+	top:0px;
+}
+
+
+#footer_index{
+	position:relative;
+	top:0px;
+	
+}
+
+/*			DESPRE NOI			*/
+
+#slide_despre{
+	height:300px;
+	background-size:cover;
+	
+}
+
+#despre_noi{
+	height:300px;
+	padding-top:100px;
+}
+
+
+#despre_noi_text p{
+	font-size:50px;
+}
+
+#pagina_despre{
+	display:flex;
+	margin:50px 20px;
+	
+	
+}
+#pagina_despre #img1, #pagina_despre #img2{
+	flex-basis:10%;
+}
+
+#pagina_despre div img{
+	width:160px;
+}
+
+#pagina_despre_text{
+	flex-basis:80%;
+	padding:20px 20px;
+	font-size:22px;
+}
+
+#pagina_despre_text2{
+	font-size:20px;
+	margin:30px 100px;
+	padding:50px;
+}
+
+/*			DERATIZARE			*/
+#deratizare_pagina{
+	padding:50px 20px;
+}
+
+#deratizare1, #deratizare3{
+	flex-basis:10%;
+	
+}
+#deratizare2{
+	flex-basis:70%;
+	
+}
+#deratizare2 h1{
+	font-size:40px;
+}
+#deratizare_pagina p{
+	font-size:18px;
+}
+#deratizare1 img, #deratizare3 img{
+	width:70px;
+	
+}
+/*			DEZINSECTIE			*/
+#dezinsectie_pagina{
+	padding:50px 20px;
+}
+
+#dezinsectie1, #dezinsectie3{
+	flex-basis:10%;
+	
+}
+#dezinsectie2{
+	flex-basis:70%;
+	
+}
+#dezinsectie2 h1{
+	font-size:40px;
+}
+#dezinsectie_pagina p{
+	font-size:18px;
+}
+#dezinsectie1 img, #dezinsectie3 img{
+	width:70px;
+	
+}
+
+/*			DEZINFECTIE			*/
+
+
+#servicii_dezinfectie{
+	padding:50px 20px;
+	
+}
+#dezinfectie_pagina{
+	display:flex;
+	
+}
+#dezinfectie_pagina div p{
+	font-size:18px;
+}
+
+#dezinfectie_pagina img{
+	width:300px;
+}
+
+#dezinfectie_pagina div h1{
+	font-size:40px;
+	padding-top:0px;
+}
+
+#dezinfectie_pagina2{
+	display:flex;
+	
+}
+
+#text_dezinfectie2{
+	flex-basis:80%;
+	text-align:center;
+}
+#imagine_dezinfectie2{
+	flex-basis:20%;
+	text-align:right;
+}
+
+#imagine_dezinfectie2 img{
+	width:120px;
+	padding:20px;
+	margin:20px;
+
+}
+
+/*			PRETURI			*/
+
+
+#pret_juridice h1, #pret_fizice h1{
+	padding:10px;
+	font-size:28px;
+}
+table{
+	width:95%;
+	
+}
+.srv{
+	font-size:21px;
+}
+
+table tr th{
+	font-size:21px;
+	padding:6px 3px;
+}
+#rowspan td{
+	padding:2px 0px;
+	font-size:19px;
+}
+
+table td{
+	font-size:19px;
+}
+
+
+#text_pret{
+	width:95%;
+}
+
+/*			CONTACT			*/
+#slide_contact{
+	width:100%;
+	height:300px;
+}
+
+#contacteaza{
+	height:300px;
+}
+
+#contact_text p{
+	font-size:80px;
+}
+
+#paragraf_contact{
+	margin:50px 100px 25px 100px;
+}
+#date_contact{
+	display:flex;
+	margin:50px 100px;
+	text-align:center;
+	justify-content:space-between;
+	background-color:#e0e0e0;
+	box-shadow:0px 0px 15px 2px black;
+	padding:30px;
+	background-image:url(imagini/contact2_bg.jpg);
+}
+
+#date_contact div{
+	flex-basis:45%;
+	
+}
+
+#date_contact div h1{
+	margin-bottom:15px;
+	color:#ff4500;
+	font-size:35px;
+}
+#date_contact div p {
+	background-color:#ff4500;
+	margin:10px 0px;
+	padding:5px 0px;
+	font-size:20px;
+	box-shadow: inset 2px 2px 35px black;
+}
+#date_contact2 div img{
+	width:50px;
+	padding:0px;
+	
+}
+
+#date_contact2 div{
+
+}
+
+#date_contact2 div{
+	background-color:#ff4500;
+	padding:10px 0px;
+	margin-bottom:10px;
+}
+
+#paragraf_contact  #pret{
+	background-color:#ff4500;
+}
+}
